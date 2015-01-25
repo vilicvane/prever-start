@@ -1,0 +1,12 @@
+﻿$P .ItemBox { height: 60px; padding: 5px; }
+$P .Icon { position: absolute; left: 5px; height: 58px; width: 58px; border: solid 1px #F0F0F0; background: no-repeat center; }
+$P .BasicInfo { position: absolute; left: 65px; width: 230px; height: 50px; padding: 5px; padding-right: 0px; white-space: nowrap; }
+$P .BasicInfo input { width: 221px; margin-top: 6px; margin-bottom: 5px; }
+$P .OpenBox { float: right; position: relative; height: 60px; width: 100px; }
+$P .OpenBox button { position: absolute; bottom: 4px; right: 0px; }
+$P .DetailBox { display: none; position: relative; border: solid 1px #CCCCCC; background-color: #F0F0F0; height: 173px; line-height: 22px; margin-left: 5px; margin-right: 5px; padding: 10px; padding-top: 5px; }
+$P .DetailBox input { width: 200px; }
+$P .ButtonBox { position: absolute; bottom: 0px; right: 0px; padding: 3px; }
+$P .ButtonBox button { margin: 2px; }
+
+$P .Group { padding: 5px; }

@@ -1,0 +1,5 @@
+﻿{
+Name: '文件上传器',
+ClassLabel: '$U',
+ScriptList: [ 'Main.js' ]
+}

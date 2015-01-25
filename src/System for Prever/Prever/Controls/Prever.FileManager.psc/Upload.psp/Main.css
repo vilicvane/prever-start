@@ -1,0 +1,21 @@
+﻿$U .ButtonBox { padding: 5px; height: 22px; }
+$U .ButtonBox div { float: left; padding-left: 10px; width: 70px; height: 20px; line-height: 20px; border: solid 1px #CCCCCC; color: #999999; }
+$U .AddButton { background: right no-repeat url([p:Images\Add.png]); background-position: 58px 0px; overflow: hidden; position: relative; }
+$U .UploadButton { margin-left: 5px; background: no-repeat url([p:Images\Upload.png]) 58px 0px; }
+
+$U .AddButton input { position: absolute; font-size: 40px; height: 30px; right: -5px; top: -5px; filter: alpha(opacity=0); opacity: 0; }
+
+$U .FileList { clear: both; margin: 5px; margin-top: 0px; border: solid 1px #CCCCCC; }
+$U .Title { color: #FFFFFF; background-color: #999999; line-height: 20px; padding-left: 10px; }
+
+$U .Items { position: relative; height: 200px; overflow: auto; padding: 0px; margin: 0px; line-height: 20px; }
+$U .Items li { position: relative; white-space: nowrap; overflow: hidden; background-repeat: no-repeat; background-position: 4px 4px; padding: auto; padding-left: 18px; padding-right: 2px; }
+$U .Items li .Delete { position: absolute; right: 0px; top: 0px; display: none; color: #FF6600; background-color: #F0F0F0; cursor: pointer; padding-left: 5px; padding-right: 5px; }
+$U .Items li:hover { background-color: #F0F0F0; }
+$U .Items li:hover .Delete { display: block; }
+
+$U .Waiting { background-image: url([p:Images\Waiting.gif]); }
+$U .Uploading { background-image: url([p:Images\Uploading.gif]); }
+$U .Finished { background-image: url([p:Images\Finished.gif]); }
+
+$U .StatusBox { color: #999999; text-indent: 5px; }

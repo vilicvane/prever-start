@@ -1,0 +1,5 @@
+﻿{
+Name: 'Hello World!',
+ClassLabel: '$T',
+ScriptList: [ 'Main.js' ]
+}

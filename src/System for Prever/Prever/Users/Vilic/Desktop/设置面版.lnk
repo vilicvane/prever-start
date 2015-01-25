@@ -1,0 +1,6 @@
+﻿{
+    Icon: 'System:\\Prever\\Programs\\SettingPad.psp\\Icons\\48.png',
+    SmallIcon: 'System:\\Prever\\Programs\\SettingPad.psp\\Icons\\16.png',
+    Path: 'System:\\Prever\\Programs\\SettingPad.psp',
+    IsFolder: true
+}

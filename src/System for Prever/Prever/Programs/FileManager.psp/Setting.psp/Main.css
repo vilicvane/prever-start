@@ -1,0 +1,6 @@
+﻿$S .Config { margin: 5px; margin-bottom: 0px; padding: 10px; border: solid 1px #CCCCCC; background-color: #F0F0F0; line-height: 25px; }
+$S .Config input { width: 170px; }
+$S .Config a { color: #0066CC; margin-left: 10px; text-decoration: none; }
+
+$S .ConfigBtBox { text-align: right; padding: 3px; }
+$S .ConfigBtBox button { margin: 2px; }

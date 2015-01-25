@@ -1,0 +1,5 @@
+﻿{
+Name: 'My Prever',
+ClassLabel: '$M',
+ScriptList: [ 'Main.js' ]
+}

@@ -1,0 +1,5 @@
+﻿{
+Name: 'Prever.FileSelector.psc',
+ClassLabel: '$F',
+ScriptList: [ 'Main.js' ]
+}

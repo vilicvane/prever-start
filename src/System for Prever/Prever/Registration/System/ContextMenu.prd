@@ -1,0 +1,6 @@
+﻿[00000002|#psp,#psc|查看程序内容]
+[00000000|#psp|重新加载|Relaunch: true]
+[00000004|jpg,jpeg,gif,png,bmp|浏览图片]
+[00000006|zip|ZIP文件管理器>||'System:\\Prever\\Programs\\ZIPManager.psp\\Icons\\16.png']
+[00000006|zip|ZIP文件管理器>解压到当前文件夹|OpenType: 1|'System:\\Prever\\Programs\\ZIPManager.psp\\Icons\\16.png']
+[00000006|zip|ZIP文件管理器>解压到...|OpenType: 0|'System:\\Prever\\Programs\\ZIPManager.psp\\Icons\\16.png']

@@ -1,0 +1,16 @@
+﻿html { height: 100%; width: 100%; overflow: hidden; }
+body { height: 100%; width: 100%; margin: 0px; font-family: Arial; font-size: 12px; }
+
+#Window { position: relative; height: 100%; width: 100%; overflow: hidden; z-index: 0; }
+    #LoadingBox { position: absolute; width: 100%; top: 50%; height: 100px; margin-top: -50px; text-align: center; }
+        #PreverText { font-weight: bold; font-size: 24px; }
+        #PreverVersion { position: relative; top: -10px; left: 2px; }
+        #LoadingBarBox { margin: 5px auto auto auto; height: 5px; width: 200px; background-color: #FFFFFF; padding: 1px; text-align: left; }
+            #LoadingBar { height: 100%; width: 0%; background-color: #999999; }
+
+.Load { background-color: #000000; color: #FFFFFF; }
+.Login { background-color: #0099FF; color: #FFFFFF; }
+#Taskbar { display: none; }
+
+#ControlArea { height: 0px; overflow: hidden; z-index: 1;  }
+#ScriptArea { display: none; }

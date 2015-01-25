@@ -1,0 +1,5 @@
+﻿.PreverMenu .Main { border-right: solid 1px #CCCCCC; border-top: solid 1px #CCCCCC; width: 199px; height: 69px; background-color: #FFFFFF; }
+.PreverMenu .Title { color: #FFFFFF; height: 42px; font-weight: bold; font-size: 24px; padding-left: 50px; background-image: url([p:Title.jpg]); }
+.PreverMenu .LoginOutIcon { background: no-repeat left url([p:LoginOut.png]); height: 27px; width: 24px; margin-left: 10px; margin-right: 5px; }
+.PreverMenu .Item { line-height: 27px; }
+.PreverMenu .Item div { float: left; }

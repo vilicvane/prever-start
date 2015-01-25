@@ -1,0 +1,5 @@
+﻿$S .Main { padding: 5px; text-align: center; }
+
+$S .ViewBox { height: 150px; width: 200px; margin: auto; border: solid 1px #CCCCCC; }
+$S .BtBox { position: absolute; left: 5px; bottom: 5px; width: 240px; }
+$S .BtBox button { margin: 2px; }

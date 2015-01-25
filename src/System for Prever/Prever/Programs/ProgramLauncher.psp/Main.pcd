@@ -1,0 +1,5 @@
+﻿{
+Name: 'Prever Program Launcher',
+ClassLabel: '$L',
+ScriptList: [ 'Main.js' ]
+}

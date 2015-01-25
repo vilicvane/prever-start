@@ -1,0 +1,16 @@
+﻿$S .Main { padding: 5px; }
+
+$S .SquareHolder { float: left; width: 140px; }
+$S .XYHolder { float: left; width: 115px; }
+
+$S .XYHolder input { width: 40px; }
+
+$S .PosSquare { position: absolute; bottom: 5px; left: 5px; width: 123px; height: 93px; line-height: 30px; text-align: center; border: solid 1px #CCCCCC; padding-right: 1px; padding-bottom: 1px; }
+$S .PosSquare div { float: left; width: 40px; height: 30px; background-color: #F0F0F0; color: #999999; margin-left: 1px; margin-top: 1px; }
+$S .PosSquare div:hover { background-color: #CCCCCC; color: #FFFFFF; }
+$S .PosSquare .Current { background-color: #999999; color: #FFFFFF; }
+
+$S .PosXY { line-height: 30px; padding-top: 5px;}
+
+$S .BtBox { position: absolute; right: 5px; bottom: 5px; }
+$S .BtBox button { margin-left: 4px; }

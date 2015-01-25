@@ -1,0 +1,9 @@
+﻿.Window_Border_Unfill { border-right: solid 1px #CCCCCC; border-top: solid 1px #999999; border-bottom: solid 1px #CCCCCC; border-left: solid 1px #999999; }
+.Window_Border_Blowup { border-right: solid 1px #999999; border-top: solid 1px #CCCCCC; border-bottom: solid 1px #999999; border-left: solid 1px #CCCCCC; }
+.Window_Border_Flat { border: solid 1px #CCCCCC; }
+
+.Window_Button_OpacityCover:hover { opacity: 0.3; filter: alpha(opacity=30); background-color: #FFFFFF; }
+.Window_Button_OpacityCoverDisabled { opacity: 0.3; filter: alpha(opacity=30); background-color: #CCCCCC; }
+
+.Window_Background_Light { background-color: #F0F0F0; }
+.Window_Background_Normal { background-color: #CCCCCC; }

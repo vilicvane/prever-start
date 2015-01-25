@@ -1,0 +1,5 @@
+﻿{
+Name: 'Prever Menu',
+ClassLabel: '$S',
+ScriptList: [ 'Main.js' ]
+}

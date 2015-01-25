@@ -1,0 +1,5 @@
+﻿{
+Name: 'Prever Flash Player',
+ClassLabel: '$F',
+ScriptList: [ 'Main.js' ]
+}

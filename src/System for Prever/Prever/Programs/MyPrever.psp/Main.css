@@ -1,0 +1,12 @@
+﻿$M { background-color: #F0F0F0; }
+
+$M .Background { position: absolute; display: none; }
+
+$M .My_Control_Icon_Normal_Text { color: #FFFFFF; filter: glow(color=#333333,strength=1); text-shadow: #333333 1px 1px; }
+$M .My_Control_Icon_Thumbnail_Text { color: #FFFFFF; filter: glow(color=#333333,strength=1); text-shadow: #333333 1px 1px; }
+$M .My_Control_Icon_List_Text { color: #FFFFFF; filter: glow(color=#333333,strength=1); text-shadow: #333333 1px 1px; }
+
+/*
+.Icon {}
+.SelectedIcon {}
+*/

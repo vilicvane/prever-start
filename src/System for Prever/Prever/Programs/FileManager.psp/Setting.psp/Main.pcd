@@ -1,0 +1,5 @@
+﻿{
+Name: 'FileManager Setting',
+ClassLabel: '$S',
+ScriptList: [ 'Main.js' ]
+}

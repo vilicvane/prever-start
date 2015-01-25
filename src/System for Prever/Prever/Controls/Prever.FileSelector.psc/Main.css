@@ -1,0 +1,30 @@
+﻿$F {  }
+$F .MainBox { width: 402px; padding: 4px; position: relative; }
+$F .FuncBox { height: 27px; padding-top: 3px; }
+$F .FMBox { background-color: #FFFFFF; width: 400px; height: 150px; }
+$F .OpBox { height: 55px; }
+
+$F .PosBox { float: left; height: 16px; line-height: 16px; width: 200px; padding: 1px; background: #FFFFFF no-repeat url([p:Images\PosArrow.png]); background-position: 185px 1px; }
+$F .Position { float: left; width: 180px; padding-left: 2px; padding-right: 2px; overflow: hidden; }
+$F .PosArrow { float: left; width: 16px; height: 16px; }
+
+$F .FuncButtonBox { float: left; margin-left: 5px; margin-top: 1px; width: 80px; height: 18px; background-image: url([p:Images\Buttons.png]); }
+$F .FuncButtonBox div { width: 18px; height: 18px; float: left; }
+
+$F .Bt_Back {}
+$F .Bt_Up { margin-left: 2px; }
+$F .Bt_CreateFolder { margin-left: 4px; }
+$F .Bt_ViewMode { margin-left: 2px; }
+
+$F .FileInfoBox { position: absolute; left: 15px; bottom: 2px; line-height: 26px; }
+$F .FileInfoBox input { width: 220px; }
+$F .FileInfoBox select { width: 225px; }
+$F .OpButtonBox { position: absolute; width: 100px; text-align: right; right: 5px; bottom: 5px; }
+
+$F .OpButtonBox button { width: 90px; margin-top: 4px; }
+
+$F .PosMenu { display: none; position: absolute; line-height: 20px; left: 4px; top: 28px; width: 198px; padding: 2px; background-color: #FFFFFF; line-height: 18px; overflow-x: auto; }
+$F .PosMenu .Node { padding-left: 18px; background-repeat: no-repeat; background-position: 1px 1px; }
+
+$F .PosMenu .Selected { padding-top: 20px; position: relative; }
+$F .PosMenu .Selected .Text { position: absolute; top: 0px; background-color: #999999; color: #FFFFFF; }

@@ -1,0 +1,6 @@
+﻿{
+    Icon: 'System:\\Prever\\Programs\\MyDateTime.psp\\Icons\\48.png',
+    SmallIcon: 'System:\\Prever\\Programs\\MyDateTime.psp\\Icons\\16.png',
+    Path: 'System:\\Prever\\Programs\\MyDateTime.psp\\Setting.psp',
+    IsFolder: true
+}

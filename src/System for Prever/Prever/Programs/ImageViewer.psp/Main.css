@@ -1,0 +1,16 @@
+﻿$I .ImageArea { overflow: hidden; position: relative; margin: 4px; }
+$I .ImageArea div { text-align: center; color: #999999; }
+$I .ImageArea img { display: none; position: absolute; border: solid 1px #DDDDDD; background-image: url([p:ImgBg.png]); }
+
+$I .ButtonArea { background-color: #DDDDDD; height: 25px; padding-top: 10px; padding-bottom: 10px; text-align: center; }
+$I .ButtonDiv { background-image: url([p:Button.png]); width: 230px; height: 25px; margin: auto; }
+$I .ButtonDiv div { float: left; height: 25px; }
+$I .ButtonDiv div:hover { background-color: #FFFFFF; opacity: 0.3; filter: alpha(opacity=30); }
+
+$I .ButtonDiv .Button1 { width: 42px; }
+$I .ButtonDiv .Button2 { width: 39px; margin-left: 1px; }
+$I .ButtonDiv .Button22 { width: 39px; margin-left: 1px; background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50); }
+$I .ButtonDiv .Button3 { width: 42px; margin-left: 1px; }
+$I .ButtonDiv .Button4 { width: 29px; margin-left: 2px; }
+$I .ButtonDiv .Button5 { width: 29px; margin-left: 1px; }
+$I .ButtonDiv .Button6 { width: 37px; margin-left: 7px; }

@@ -1,0 +1,13 @@
+﻿$D { background-image: url([p:Images\Bg.png]); text-align: center; color: #FFFFFF; cursor: default; }
+
+$D .MYBox { padding-top: 10px; padding-left: 15px; text-align: left; font-family: Arial; }
+$D .Month { font-size: 45px; line-height: 50px; }
+$D .Year { font-size: 20px; position: relative; top: -5px; }
+$D .Time { font-size: 16px; position: relative; top: -7px; left: 10px; }
+
+$D .DayLabel { width: 182px; height: 22px; line-height: 22px; padding: 2px; background-color: #0099DD; color: #FFFFFF; border: solid 1px #0088DD; border-bottom: 0px; margin: auto; }
+$D .DayLabel div { float: left; width: 26px; height: 18px; text-align: center; }
+
+$D .DateBox { width: 182px; height: 132px; line-height: 22px; border: solid 1px #0088DD; border-top: 0px; margin: auto; padding: 2px; background-color: #FFFFFF; }
+$D .DateBox div { float: left; width: 26px; height: 22px; text-align: center; color: #006699; }
+$D .DateBox .Today { background-color: #0099DD; color: #FFFFFF; }

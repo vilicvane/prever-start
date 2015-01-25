@@ -1,0 +1,5 @@
+﻿{
+Name: 'My DateTime',
+ClassLabel: '$D',
+ScriptList: [ 'Main.js' ]
+}

@@ -1,0 +1,70 @@
+﻿/******************************************************/
+/* ContextMenu */
+.My_Control_ContextMenu { display: none; position: absolute; border: solid 1px #CCCCCC; z-index: 9999999999; background-color: #FFFFFF; padding: 1px; cursor: default; }
+
+.My_Control_ContextMenu_Item { line-height: 20px; }
+.My_Control_ContextMenu_ItemHover { line-height: 18px; border: solid 1px #CCCCCC; background-color: #F0F0F0; }
+
+.My_Control_ContextMenu_Item
+.My_Control_ContextMenu_Icon { position: absolute; width: 20px; height: 20px; background: no-repeat center; }
+
+.My_Control_ContextMenu_ItemHover
+.My_Control_ContextMenu_Icon { position: absolute; width: 18px; height: 18px; background: no-repeat center; }
+
+.My_Control_ContextMenu_Item
+.My_Control_ContextMenu_Text { padding-left: 25px; padding-right: 18px; white-space: nowrap; }
+
+.My_Control_ContextMenu_ItemHover
+.My_Control_ContextMenu_Text { padding-left: 24px; padding-right: 17px; white-space: nowrap; }
+
+.My_Control_ContextMenu_Item
+.My_Control_ContextMenu_TextWithArrow { padding-left: 25px; padding-right: 17px; white-space: nowrap; margin-right: 1px; background: url([p:ContextMenu_Arrow.png]) no-repeat right; }
+
+.My_Control_ContextMenu_ItemHover
+.My_Control_ContextMenu_TextWithArrow { padding-left: 24px; padding-right: 17px; white-space: nowrap; background: url([p:ContextMenu_Arrow.png]) no-repeat right; }
+
+.My_Control_ContextMenu_ItemUnable { color: #CCCCCC; }
+
+.My_Control_ContextMenu_Separator { border-top: solid 1px #DDDDDD; margin-left: 22px; margin-right: 12px; }
+
+/******************************************************/
+/* Control */
+.My_Control_Icon_Normal { width: 70px; height: 70px; text-align: center; cursor: default; }
+
+.My_Control_Icon_Normal_Bg { display: none; left: 0px; top: 0px; position: absolute; width: 68px; height: 68px; border: solid 1px #AAAAAA; background-color: #F9F9F9; }
+
+.My_Control_Icon_Normal_MouseOverBg { display: block; opacity: 0.3; filter: alpha(opacity=30); }
+.My_Control_Icon_Normal_SelectedBg { display: block; opacity: 0.6; filter: alpha(opacity=60); }
+
+.My_Control_Icon_Normal_Image { position: absolute; left: 11px; top: 2px; width: 48px; height: 48px; background: no-repeat center; }
+
+.My_Control_Icon_Normal_Text { position: absolute; white-space: nowrap; overflow: hidden; width: 60px; line-height: 18px; left: 5px; top: 52px; }
+.My_Control_Icon_Normal_SelectedText {}
+
+/******************************************************/
+
+.My_Control_Icon_Thumbnail { width: 90px; height: 90px; text-align: center; cursor: default; }
+
+.My_Control_Icon_Thumbnail_Bg { display: none; left: 0px; top: 0px; position: absolute; width: 88px; height: 88px; border: solid 1px #AAAAAA; background-color: #F9F9F9; }
+
+.My_Control_Icon_Thumbnail_MouseOverBg { display: block; opacity: 0.3; filter: alpha(opacity=30); }
+.My_Control_Icon_Thumbnail_SelectedBg { display: block; opacity: 0.6; filter: alpha(opacity=60); }
+
+.My_Control_Icon_Thumbnail_Image { position: absolute; left: 13px; top: 5px; width: 64px; height: 64px; background: no-repeat center; }
+
+.My_Control_Icon_Thumbnail_Text { position: absolute; white-space: nowrap; overflow: hidden; left: 5px; width: 80px; top: 71px; }
+.My_Control_Icon_Thumbnail_SelectedText {}
+
+/******************************************************/
+
+.My_Control_Icon_List { width: 200px; height: 20px; text-align: left; cursor: default; }
+
+.My_Control_Icon_List_Bg { display: none; left: 0px; top: 0px; position: absolute; width: 200px; height: 20px; }
+
+.My_Control_Icon_List_MouseOverBg { display: block; background-color: #DDDDDD; }
+.My_Control_Icon_List_SelectedBg { display: block; background-color: #999999; }
+
+.My_Control_Icon_List_Image { position: relative; float: left; margin: auto; width: 16px; height: 16px; margin: 2px; background: no-repeat center; }
+
+.My_Control_Icon_List_Text { position: relative; float: left; white-space: nowrap; overflow: hidden; line-height: 20px; padding-left: 5px; width: 175px; }
+.My_Control_Icon_List_SelectedText { color: #FFFFFF; }

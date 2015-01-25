@@ -1,0 +1,6 @@
+﻿{
+    Icon: 'System:\\Prever\\Programs\\ImageViewer.psp\\Icons\\48.png',
+    SmallIcon: 'System:\\Prever\\Programs\\ImageViewer.psp\\Icons\\16.png',
+    Path: 'System:\\Prever\\Programs\\ImageViewer.psp',
+    IsFolder: true
+}

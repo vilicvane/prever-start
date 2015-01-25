@@ -1,0 +1,5 @@
+﻿{
+Name: 'Prototype 查看器',
+ClassLabel: '$P',
+ScriptList: [ 'Main.js' ]
+}

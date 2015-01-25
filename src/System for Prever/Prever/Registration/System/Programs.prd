@@ -1,0 +1,71 @@
+﻿[
+    Path: 'System:\\Prever\\Programs\\ProgramLauncher.psp',
+    UID: '00000000',
+    Name: 'Prever Program Launcher',
+    Description: 'Prever 基本程序',
+    Version: '1.0.0'
+]
+
+[
+    Path: 'System:\\Prever\\Programs\\MyPrever.psp',
+    UID: '00000001',
+    Name: 'My Prever',
+    Description: 'Prever 基本程序',
+    Version: '1.0.0'
+]
+
+[
+    Path: 'System:\\Prever\\Programs\\FileManager.psp',
+    UID: '00000002',
+    Name: 'Prever File Manager',
+    Description: 'Prever 基本程序',
+    Version: '1.0.0'
+]
+
+[
+    Path: 'System:\\Prever\\Programs\\TextEditor.psp',
+    UID: '00000003',
+    Name: 'Prever Text Editor',
+    Description: 'Prever 文本编辑器',
+    Version: '1.0.0'
+]
+
+[
+    Path: 'System:\\Prever\\Programs\\ImageViewer.psp',
+    UID: '00000004',
+    Name: 'Prever Image Viewer',
+    Description: 'Prever 图片浏览器',
+    Version: '1.0.0'
+]
+
+[
+    Path: 'System:\\Prever\\Programs\\ZIPManager.psp',
+    UID: '00000006',
+    Name: 'Prever ZIP Manager',
+    Description: 'Prever ZIP 管理器',
+    Version: '1.0.0'
+]
+
+[
+    Path: 'System:\\Prever\\Programs\\LinkLauncher.psp',
+    UID: '00000007',
+    Name: 'Prever Link Launcher',
+    Description: 'Prever 基本程序',
+    Version: '1.0.0'
+]
+
+[
+    Path: 'System:\\Prever\\Programs\\URLLauncher.psp',
+    UID: '00000008',
+    Name: 'Prever URL Launcher',
+    Description: 'Prever 基本程序',
+    Version: '1.0.0'
+]
+
+[
+    Path: 'System:\\Prever\\Programs\\FlashPlayer.psp',
+    UID: '00000009',
+    Name: 'Prever Flash Player',
+    Description: 'Prever Flash 播放器',
+    Version: '1.0.0'
+]

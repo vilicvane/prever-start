@@ -1,0 +1,5 @@
+﻿{
+Name: 'Prever ZIPManager',
+ClassLabel: '$Z',
+ScriptList: [ 'Main.js' ]
+}

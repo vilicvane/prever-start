@@ -1,0 +1,10 @@
+﻿html { /*scrollbar-face-color: #FFFFFF; scrollbar-highlight-color: #FFFFFF; scrollbar-shadow-color: #FFFFFF; scrollbar-3dlight-color: #CCCCCC; scrollbar-arrow-color: #CCCCCC; scrollbar-track-color: #EEEEEE; scrollbar-darkshadow-color: #CCCCCC;*/ }
+
+body { color: #333333; cursor: default; }
+
+button { border: solid 1px #CCCCCC; background: #FFFFFF; color: #666666; height: 22px; padding-left: 15px; padding-right: 15px; *padding-left: 7px; *padding-right: 7px; }
+button:hover { background: #EEEEEE; }
+button.Disabled { background: #F9F9F9; }
+
+input { border: solid 1px #CCCCCC; height: 16px; font-family: Arial; color: #666666; font-size: 12px; }
+select { border: solid 1px #CCCCCC; height: 20px; font-family: Arial; color: #666666; font-size: 12px; }

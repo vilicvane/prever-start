@@ -1,0 +1,3 @@
+﻿$T .MenuBar { height: 30px; }
+$T button { margin: 3px auto auto 5px; }
+$T textarea { border-width: 0px; font-size: inherit; overflow: auto; margin: 0px; padding: 5px; }

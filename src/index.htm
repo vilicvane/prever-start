@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Prever Start</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+    var userAgent = navigator.userAgent;
+    
+    var compatible = true;
+    
+    (function()
+    {
+        var re = /MSIE (\d+)/;
+        if ( re.test( userAgent ) )
+        {
+            if ( Number( RegExp.$1 ) < 7 ) compatible = false;
+            return;
+        }
+        
+        re = /Chrome\/(\d+)/;
+        if ( re.test( userAgent ) )
+        {
+            if ( Number( RegExp.$1 ) < 2 ) compatible = false;
+            return;
+        }
+        
+        if ( userAgent.indexOf( 'Safari' ) > 0 )
+        {
+            re = /Version\/(\d+)/;
+            if ( re.test( userAgent ) )
+            {
+                if ( Number( RegExp.$1 ) < 4 ) compatible = false;
+                return;
+            }
+        }
+        
+        re = /Firefox\/(\d+)/;
+        if ( re.test( userAgent ) )
+        {
+            if ( Number( RegExp.$1 ) < 3 ) compatible = false;
+            return;
+        }
+    })();
+    
+    if ( compatible ) window.location.href = 'Prever.htm';
+    else
+    {
+        alert( '    抱歉,您使用的浏览器不被Prever Start兼容!为了更好的\n体验互联网,推荐您使用最新的浏览器:\n\n    * Internet Explorer 8\n    * Firefox 3.5\n    * Chrome 3\n    * Safari 4' );
+        window.close();
+    }
+</script>
+</html>
